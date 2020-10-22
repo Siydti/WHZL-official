@@ -1,0 +1,72 @@
+/* 
+    版心
+*/
+.concontainer {
+  width: 1500px;
+  margin: 0 auto;
+}
+/* 
+    头部
+*/
+header {
+  padding: 20px 0px;
+}
+header .headBox {
+  display: flex;
+  justify-content: space-between;
+}
+header .headBox .left {
+  display: flex;
+  align-content: space-between;
+}
+header .headBox .left .logo {
+  width: 90px;
+  height: 67px;
+  background-color: #FAC217;
+  margin-right: 10px;
+}
+header .headBox .left .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 234px;
+  text-align: justify;
+}
+header .headBox .left .content .cname {
+  color: #FAC217;
+  font-size: 22px;
+  font-weight: 400;
+}
+header .headBox .left .content .ename {
+  font-size: 11px;
+  color: #333333;
+}
+header .headBox .left .content .idea {
+  color: #333333;
+  font-size: 14px;
+}
+header .headBox .right {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  font-size: 20px;
+}
+header .headBox .right li {
+  margin-left: 20px;
+}
+header .headBox .right li:nth-child(2n+1) {
+  cursor: pointer;
+}
+/* 
+    轮播
+*/
+#banner {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#banner #logo {
+  position: relative;
+  left: 600px;
+  transform: skewX(90deg);
+}
